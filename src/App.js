@@ -2,13 +2,17 @@ import "./App.scss";
 import Header from "./components/Header";
 import { Experience } from "./components/Experience";
 import { Capabilities } from "./components/Сapabilities";
+import { StarRaitingFunction } from "./components/StarRaitingFunction";
+import StarRaitingClass from "./components/StarRaitingClass";
 
 function App() {
   return (
     <>
-      <Header></Header>
+      {/*<Header></Header>
       <Experience></Experience>
-      <Capabilities></Capabilities>
+  <Capabilities></Capabilities>*/}
+      <StarRaitingFunction></StarRaitingFunction>
+      <StarRaitingClass></StarRaitingClass>
     </>
   );
 }
